@@ -1,0 +1,200 @@
+body {
+  margin: 0;
+  padding: 0px;
+}
+
+#about{
+  font-size: 35px;
+  margin-top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgb(70, 70, 70);
+  border-bottom:rgb(150, 150, 150) 3px solid;
+  width: 110px;
+  max-width: 960px;
+}
+
+#bicycle {
+  font-size: 35px;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  color:rgb(70, 70, 70);
+  border-bottom:rgb(150, 150, 150) 3px solid;
+  width: 130px;
+  max-width: 960px;
+}
+
+li {
+  list-style: none;
+  font-size: 15px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+p {
+  font-size: 15px;
+}
+
+/* メニュー */
+nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.home {
+  color: white;
+  background-color: rgb(70, 70, 70);
+  text-decoration: none;
+  font-size: 25px;
+  padding: 0px 20px;
+  font-weight: bold;
+}
+
+.menu {
+  margin-left: 330px;
+  margin-top: 5px;
+}
+
+.menu > a {
+  color: black;
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+/* メイン画像 */
+.main-pic {
+  width: 100%;
+  margin-top: 10px;
+  min-width: 600px;
+  height: 600px;
+  object-fit:cover;
+}
+
+/* about */
+.about {
+  display: flex;
+  justify-content: center;
+}
+
+.radius {
+  margin-top: 30px;
+  border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  max-width: 960px;
+}
+
+.about-text {
+  margin-top: 20px;
+  max-width: 960px;
+}
+
+.about-text > h3 {
+  margin-left: 38px;
+}
+
+/* bycicle */
+.bicycle {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  margin-top: 100px;
+  
+}
+
+.item {
+  max-width: 960px;
+  margin-top: -40px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 250px;
+}
+
+.item > img {
+  width: 100%;
+}
+
+footer {
+  margin-top: 100px;
+  text-align: center;
+  font-size: 15px;
+}
+
+/*==============
+スマホ用 
+===============-*/
+@media screen and (max-width: 600px) {
+
+  body {
+    min-width: 600px;
+  }
+
+  nav {
+    min-width: 600px;
+  }
+
+  .home {
+    padding: 3px 15px;
+    margin-left: 10px;
+  }
+
+  .menu {
+    margin-left: 300px;
+    margin-top: 10px;
+    display: flex;
+
+  }
+
+  .main-pic {
+    max-width: 100%;
+  }
+
+  #about {
+    margin-left: 38%;
+  }
+
+  .radius {
+    width: 25%;
+    margin-left: 33%;
+  }
+
+  .about {
+    display: block;
+  }
+
+  .about-text {
+    margin: 0px 85px 0px 15px;
+    min-width: 500px;
+  }
+
+  #bicycle {
+    margin-left: 38%;
+  }
+
+  .bicycle {
+    display: block;
+  }
+
+  .item {
+    width: 150%;
+    margin-left: -110px;
+  }
+
+  .item > h3 {
+    margin-left: 15px;
+  }
+
+  .item > p {
+    margin-left: 15px;
+  }
+
+  footer {
+    min-width: 600px;
+    margin-left: -20px;
+  }
+
+}
